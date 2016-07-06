@@ -1,0 +1,84 @@
+.bordphoto
+{
+  padding: 20px 0;
+}
+.photoidentite
+{
+  width: 130px;
+	border-radius: 100%;
+  border: solid grey 4px;
+}
+.adresse_et_numero_de_tel
+{
+  text-align:right;
+  font-size: 20px;
+}
+.entete
+{
+  background-color: #302C2D;
+  color: white;
+}
+.mail
+{
+  color: yellowgreen;
+}
+.mail:hover
+{
+  color: #BEEB9F;
+}
+.listeinfospersos
+{
+  padding-top: 20px;
+  list-style-type: none;
+}
+.diplomes
+{
+  background-color: #BEEB9F;
+  height: 193px;
+}
+.experience
+{
+  background-color: #79BD8F;
+}
+.loisirs
+{
+  background-color: #00A388;
+  height: 193px;
+}
+.progress
+{
+  padding: 0;
+}
+.titlecompet
+{
+  text-align: center;
+}
+h3:hover
+{
+  font-weight: bold;
+}
+.ui-widget-header
+{
+  background: #59C471 none repeat scroll 0 0 !important;
+}
+.ui-progressbar .ui-progressbar-value
+{
+  height: 30% !important;
+}
+body
+{
+  background: url("../fondcv.png") repeat;
+}
+.fa-graduation-cap,.fa-road,.fa-puzzle-piece
+{
+  transition: transform 1s ease-out;
+}
+.fa-graduation-cap:hover,.fa-road:hover,.fa-puzzle-piece:hover
+{
+  transform: rotate(360deg);
+}
+.hauteur_carou
+{
+  height: 50px !important;
+  width: auto !important;
+}
