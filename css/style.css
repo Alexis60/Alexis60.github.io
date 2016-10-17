@@ -1,84 +1,105 @@
 .bordphoto
 {
-  padding: 20px 0;
+    padding: 20px 0;
 }
 .photoidentite
 {
-  width: 130px;
-	border-radius: 100%;
-  border: solid grey 4px;
+    width: 130px;
+    border-radius: 100%;
+    border: solid grey 4px;
 }
 .adresse_et_numero_de_tel
 {
-  text-align:right;
-  font-size: 20px;
+    text-align:right;
+    font-size: 20px;
 }
 .entete
 {
-  background-color: #302C2D;
-  color: white;
+    background-color: #302C2D;
+    color: white;
 }
 .mail
 {
-  color: yellowgreen;
+    color: yellowgreen;
 }
 .mail:hover
 {
-  color: #BEEB9F;
+    color: #BEEB9F;
 }
 .listeinfospersos
 {
-  padding-top: 20px;
-  list-style-type: none;
+    padding-top: 20px;
+    list-style-type: none;
 }
 .diplomes
 {
-  background-color: #BEEB9F;
-  height: 193px;
+    background-color: #BEEB9F;
+    height: 250px;
 }
 .experience
 {
-  background-color: #79BD8F;
+    background-color: #79BD8F;
+    height: 250px;
+
+}
+.liste-experience
+{
+    padding-top: 15px;
 }
 .loisirs
 {
-  background-color: #00A388;
-  height: 193px;
+    background-color: #00A388;
+    height: 250px;
+}
+.liste-loisir {
+    padding-top: 40px;
 }
 .progress
 {
-  padding: 0;
+    padding: 0;
 }
 .titlecompet
 {
-  text-align: center;
+    text-align: center;
 }
 h3:hover
 {
-  font-weight: bold;
+    font-weight: bold;
 }
 .ui-widget-header
 {
-  background: #59C471 none repeat scroll 0 0 !important;
+    background: #59C471 none repeat scroll 0 0 !important;
 }
 .ui-progressbar .ui-progressbar-value
 {
-  height: 30% !important;
+    height: 30% !important;
 }
 body
 {
-  background: url("../fondcv.png") repeat;
+    background: url("../fondcv.png") repeat;
 }
 .fa-graduation-cap,.fa-road,.fa-puzzle-piece
 {
-  transition: transform 1s ease-out;
+    transition: transform 1s ease-out;
 }
 .fa-graduation-cap:hover,.fa-road:hover,.fa-puzzle-piece:hover
 {
-  transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 .hauteur_carou
 {
-  height: 50px !important;
-  width: auto !important;
+    height: 50px !important;
+    width: auto !important;
+}
+.ui-progressbar {
+    position: relative;
+    height: 40px !important;
+    padding: 4px 14px;
+}
+.progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
 }
